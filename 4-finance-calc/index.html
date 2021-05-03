@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Finance Calc</title>
+        <link type="text/css" rel="stylesheet" href="gulp-setup/app/css/style.css">
+        <script src="gulp-setup/app/js/dist/app.js" defer></script>
+    </head>
+    <body>
+        <div class="title-container">
+            <h1>Finance Calculator</h1>
+        </div>
+        <div class="body-container">
+            <div class="input-form-container">
+                <form id="input-data" name="input-form">
+                    <div>
+                        <label for="borrowed-amount">Amount you would like to Borrow: </label>
+                        <input type="text" id="borrowed-amount" class="borrowed-amount" placeholder="£1 - £10,000">
+                    </div>
+                    <div>
+                         <label for="expected-salary">Your Expected Salary: </label>
+                         <input id="expected-salary" placeholder="Default: £25,000">
+                    </div>
+                    <div>
+                        <label for="monthly-repayment">Monthly Repayment: </label>
+                        <input id="monthly-repayment" placeholder="Default: 10">
+                        <span>%</span>
+                    </div>
+                    <div>
+                        <input id="submit-form" type="submit">
+                    </div>
+                </form>
+            </div>
+            <div class="output-container">
+                <div class="output-data">
+                    <div>
+                        <p>Admin fee: £<span class="display-admin-fee output">0</span>.</p>
+                    </div>
+                    <div>
+                        <p>Expected time to pay off: <span class="display-expected-time output">0</span> months.</p>
+                    </div>
+                    <div>
+                        <p>Monthly Installments: £<span class="display-monthly-payment output">0</span> per month.</p>
+                    </div>
+                    <div>
+                        <p>Total amount borrowed: £<span class="display-amount-borrowed output">0</span>.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </body>
+</html>
+
+

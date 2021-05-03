@@ -1,0 +1,45 @@
+.container {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.header-container {
+    height: 10vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-container, .output-container {
+    height: 25vh;
+    width: 30vw;
+    background-color: beige;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.form-position {
+    width: 70%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.max-length-output-container, .posts-and-railings-output-container {
+    height: 25%;
+    width: 70%;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.max-length-output, .posts-and-railings-output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
